@@ -674,6 +674,28 @@ ul, ol { list-style: none; }
   flex-direction: column;
 }
 
+.project-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--accent-secondary);
+  background: rgba(0, 212, 255, .1);
+  border: 1px solid rgba(0, 212, 255, .25);
+  padding: 4px 10px;
+  border-radius: 100px;
+  margin-bottom: 12px;
+  width: fit-content;
+}
+
+.project-badge svg {
+  flex-shrink: 0;
+}
+
 .project-card__title {
   font-size: 19px;
   font-weight: 700;
