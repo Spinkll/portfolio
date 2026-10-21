@@ -5,39 +5,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO -->
   <title>Roman Skorokhod — Full-Stack Developer | Portfolio</title>
   <meta name="description"
     content="Web developer portfolio. I build modern, fast, and user-friendly web applications using React, Next.js, Node.js, and other technologies." />
   <meta name="keywords" content="portfolio, web developer, frontend, full-stack, React, Next.js, Node.js" />
   <meta name="author" content="Roman Skorokhod" />
 
-  <!-- Open Graph -->
   <meta property="og:title" content="Roman Skorokhod — Full-Stack Developer" />
   <meta property="og:description" content="I build modern, fast, and user-friendly web applications." />
   <meta property="og:type" content="website" />
-  <!-- <meta property="og:image" content="YOUR_OG_IMAGE_URL" /> -->
-
-  <!-- Favicon placeholder -->
-  <!-- <link rel="icon" href="favicon.ico" /> -->
-
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-  <!-- ========================================
-       HEADER
-       ======================================== -->
   <header class="header" id="header">
     <div class="container header__inner">
 
-      <!-- Logo -->
       <a href="#hero" class="header__logo" id="logo">
         &lt;<span class="header__logo-accent">Dev</span>/&gt;
       </a>
 
-      <!-- Desktop Navigation -->
       <nav class="header__nav" id="desktop-nav" aria-label="Main navigation">
         <a href="#about" class="header__link" data-nav>About</a>
         <a href="#stack" class="header__link" data-nav>Stack</a>
@@ -45,14 +33,12 @@
         <a href="#contact" class="header__link" data-nav>Contact</a>
       </nav>
 
-      <!-- Mobile Burger -->
       <button class="header__burger" id="burger-btn" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
-  <!-- Mobile Menu Overlay -->
   <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
     <a href="#about" class="mobile-menu__link" data-mobile-nav>About</a>
     <a href="#stack" class="mobile-menu__link" data-mobile-nav>Stack</a>
@@ -61,13 +47,9 @@
   </div>
 
 
-  <!-- ========================================
-       HERO SECTION
-       ======================================== -->
   <section class="hero section" id="hero">
     <div class="container hero__inner">
 
-      <!-- Text content -->
       <div class="hero__content">
         <p class="hero__greeting">
           <span class="hero__greeting-wave">👋</span>
@@ -75,7 +57,6 @@
         </p>
 
         <h1 class="hero__title">
-          <!-- 🔧 PLACEHOLDER: Insert your name below -->
           <span>Roman Skorokhod</span><br />
           <span class="hero__title-accent">Full-Stack Developer</span>
         </h1>
@@ -105,7 +86,6 @@
           </a>
         </div>
 
-        <!-- Social links -->
         <div class="hero__socials">
           <a href="https://github.com/Spinkll" target="_blank" rel="noopener" class="btn btn--icon" id="social-github"
             title="GitHub">
@@ -138,7 +118,6 @@
         </div>
       </div>
 
-      <!-- Interactive code block visual -->
       <div class="hero__visual reveal">
         <div class="code-window">
           <div class="code-window__header">
@@ -148,7 +127,6 @@
             <span class="code-window__tab">developer.js</span>
           </div>
           <div class="code-window__body" id="code-block">
-            <!-- Typing animation fills this via JS -->
           </div>
         </div>
       </div>
@@ -157,9 +135,6 @@
   </section>
 
 
-  <!-- ========================================
-       TECH STACK
-       ======================================== -->
   <section class="stack section" id="stack">
     <div class="container">
       <span class="section__label reveal">Technologies</span>
@@ -170,7 +145,6 @@
 
       <div class="stack__grid reveal-stagger">
 
-        <!-- Frontend -->
         <div class="stack-card reveal" style="--i:0">
           <div class="stack-card__icon stack-card__icon--frontend">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -190,7 +164,6 @@
           </div>
         </div>
 
-        <!-- Backend -->
         <div class="stack-card reveal" style="--i:1">
           <div class="stack-card__icon stack-card__icon--backend">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -213,7 +186,6 @@
           </div>
         </div>
 
-        <!-- Tools -->
         <div class="stack-card reveal" style="--i:2">
           <div class="stack-card__icon stack-card__icon--tools">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -239,9 +211,6 @@
   </section>
 
 
-  <!-- ========================================
-       PROJECTS
-       ======================================== -->
   <section class="projects section" id="projects">
     <div class="container">
       <span class="section__label reveal">Portfolio</span>
@@ -252,7 +221,6 @@
 
       <div class="projects__grid reveal-stagger">
 
-        <!-- Project 1 -->
         <article class="project-card reveal" style="--i:0">
           <img src="img/baida-kino.png" alt="Baida Cinema Website Modernization preview" class="project-card__image"
             loading="lazy" />
@@ -291,7 +259,6 @@
           </div>
         </article>
 
-        <!-- Project 2 -->
         <article class="project-card reveal" style="--i:1">
           <img src="img/car-crm.png" alt="AutoCare CRM Platform preview" class="project-card__image" loading="lazy" />
           <div class="project-card__body">
@@ -329,7 +296,6 @@
           </div>
         </article>
 
-        <!-- Project 3 -->
         <article class="project-card reveal" style="--i:2">
           <img src="img/stream-clash.png" alt="Stream-Clash Streamer Fanpage preview" class="project-card__image"
             loading="lazy" />
@@ -368,7 +334,6 @@
           </div>
         </article>
 
-        <!-- Project 4 -->
         <article class="project-card reveal" style="--i:3">
           <img src="img/task-pro.png" alt="Task Pro productivity app preview" class="project-card__image"
             loading="lazy" />
@@ -407,7 +372,6 @@
           </div>
         </article>
 
-        <!-- Project 5 -->
         <article class="project-card reveal" style="--i:4">
           <img src="img/catharsisx.png" alt="CatharsisX Educational Platform Backend preview" class="project-card__image"
             loading="lazy" />
@@ -453,9 +417,6 @@
   </section>
 
 
-  <!-- ========================================
-       ABOUT ME
-       ======================================== -->
   <section class="about section" id="about">
     <div class="container">
       <span class="section__label reveal">About Me</span>
@@ -463,12 +424,10 @@
 
       <div class="about__inner">
 
-        <!-- Avatar -->
         <div class="about__avatar-wrap reveal">
           <img src="img/IMG_4030.png" alt="Roman Skorokhod" class="about__avatar" loading="lazy" />
         </div>
 
-        <!-- Text -->
         <div class="about__text reveal">
           <p>
             <strong>Hi there!</strong> I'm a web developer with a passion for building elegant
@@ -485,7 +444,6 @@
             technologies, and find inspiration in design and the open-source community.
           </p>
 
-          <!-- Stats -->
           <div class="about__stats">
             <div class="about__stat">
               <div class="about__stat-number">1+</div>
@@ -506,9 +464,6 @@
   </section>
 
 
-  <!-- ========================================
-       CONTACT
-       ======================================== -->
   <section class="contact section" id="contact">
     <div class="container">
       <span class="section__label reveal">Contact</span>
@@ -519,7 +474,6 @@
 
       <div class="contact__inner">
 
-        <!-- Info & Links -->
         <div class="contact__info reveal">
           <p class="contact__info-text">
             The fastest way to reach me is via Telegram or Email.
@@ -573,7 +527,6 @@
           </div>
         </div>
 
-        <!-- Contact Form -->
         <form class="contact__form reveal" id="contact-form" action="#" method="POST">
           <div class="form-group">
             <label class="form-group__label" for="form-name">Name</label>
@@ -608,9 +561,6 @@
   </section>
 
 
-  <!-- ========================================
-       FOOTER
-       ======================================== -->
   <footer class="footer" id="footer">
     <div class="container footer__inner">
       <p class="footer__copy">
@@ -641,9 +591,6 @@
   </footer>
 
 
-  <!-- ========================================
-       JAVASCRIPT
-       ======================================== -->
   <script src="script.js"></script>
 </body>
 
